@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T18:33:00.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-M9ZuaJ-KerfCW_16Ffz" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-25T20:51:44.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-JMYHT6-iiIZ9ohWbeHl" version="20.8.11" type="github">
   <diagram id="53IQXVl9icCSp_Kw3Ib1" name="Page-1">
-    <mxGraphModel dx="1390" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1284" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,16 +156,6 @@
         <mxCell id="ck4O1efFFyVbqovqOwfO-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;fontFamily=Courier New;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ck4O1efFFyVbqovqOwfO-25" target="ck4O1efFFyVbqovqOwfO-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="801.8699999999999" y="219" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=4;entryX=0.538;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="602" y="220" as="sourcePoint" />
-            <mxPoint x="640.04" y="680.04" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="602" y="250" />
-              <mxPoint x="640" y="250" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ck4O1efFFyVbqovqOwfO-25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-blue;gradientColor=#EA6B66;strokeColor=#B85450;fillColor=#F8CECC;" parent="1" vertex="1">
@@ -370,7 +360,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-2" value="Each commit triggers a build pipeline, which produces a&lt;b&gt; build artifact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-2" value="&lt;b&gt;Each commit&lt;/b&gt; triggers a build pipeline, which produces a&lt;b&gt; build artifact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="489" y="405" width="128" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pDLgfkYLmZ7nKOtSb_zo-3" value="Once build artifact is created, a &lt;b&gt;release pipeline&lt;/b&gt; is triggered with &lt;b&gt;multiple deployment stages&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
@@ -404,7 +394,7 @@
           <mxGeometry x="413.88" y="682.5" width="103.12" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pDLgfkYLmZ7nKOtSb_zo-19" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Release pipeline tasks:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Download build artifact&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Apply xml transformations&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Create IIS Website/App and app pool&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Deploy IIS Website/App&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="790" y="477" width="250" height="120" as="geometry" />
+          <mxGeometry x="789" y="508" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pDLgfkYLmZ7nKOtSb_zo-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;fontFamily=Courier New;fontSize=16;strokeColor=default;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="pDLgfkYLmZ7nKOtSb_zo-21" target="9hBKPDzoitwpIBdzFDQ7-34">
           <mxGeometry relative="1" as="geometry">
@@ -441,13 +431,12 @@
         <mxCell id="pDLgfkYLmZ7nKOtSb_zo-30" value="PROD Stage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="960" y="680" width="103.12" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;fontFamily=Courier New;fontSize=16;strokeColor=default;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;exitX=0.585;exitY=-0.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pDLgfkYLmZ7nKOtSb_zo-16" target="pDLgfkYLmZ7nKOtSb_zo-23">
+        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=4;endArrow=openThin;endFill=0;" edge="1" parent="1" source="pDLgfkYLmZ7nKOtSb_zo-23" target="pDLgfkYLmZ7nKOtSb_zo-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="463" y="505" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="210" y="585" />
+              <mxPoint x="218" y="660" />
+              <mxPoint x="218" y="660" />
             </Array>
-            <mxPoint x="216.01" y="659.04" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pDLgfkYLmZ7nKOtSb_zo-23" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/devops/continuous_deploy.svg;fillColor=#dae8fc;" vertex="1" parent="1">
@@ -458,6 +447,33 @@
         </mxCell>
         <mxCell id="pDLgfkYLmZ7nKOtSb_zo-33" value="Pre-deployment Approval" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="854.37" y="675" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=4;entryX=0.538;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;" edge="1" parent="1" target="pDLgfkYLmZ7nKOtSb_zo-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602" y="220" as="sourcePoint" />
+            <mxPoint x="640.04" y="680.04" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=4;startArrow=none;" edge="1" parent="1" source="pDLgfkYLmZ7nKOtSb_zo-49" target="pDLgfkYLmZ7nKOtSb_zo-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="637" y="620" />
+              <mxPoint x="637" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-42" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/devops/build_test.svg;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="622" y="475" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=4;endArrow=none;" edge="1" parent="1" source="pDLgfkYLmZ7nKOtSb_zo-42" target="pDLgfkYLmZ7nKOtSb_zo-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="637" y="505" as="sourcePoint" />
+            <mxPoint x="637" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDLgfkYLmZ7nKOtSb_zo-49" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/devops/continuous_deploy.svg;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="619.5" y="550.5" width="35" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
