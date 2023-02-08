@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T18:40:43.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="StE2wjo68vwsM9_lmg6-" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T18:42:02.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YW_v2w5-ZOiwsJu9zUpn" version="20.8.18" type="github">
   <diagram id="53IQXVl9icCSp_Kw3Ib1" name="Page-1">
     <mxGraphModel dx="1047" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="fSnZ5vnYTslC5NarKmr_-11" value="Trunk-based development branching strategy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="155" y="20" width="790" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9hBKPDzoitwpIBdzFDQ7-28" value="feature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" parent="1" vertex="1">
-          <mxGeometry x="38" y="455" width="72" height="20" as="geometry" />
+        <mxCell id="9hBKPDzoitwpIBdzFDQ7-28" value="features/A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="31" y="455" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ck4O1efFFyVbqovqOwfO-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=4;endArrow=none;endFill=0;startArrow=none;" parent="1" source="ck4O1efFFyVbqovqOwfO-7" edge="1">
           <mxGeometry x="154.5" y="200" as="geometry">
@@ -271,7 +271,7 @@
           <mxGeometry x="41" y="141" width="72" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Sn_b6BLtuQmuvxoxsvPE-1" value="DEV personal env" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="34.57" y="705" width="67.25" height="60" as="geometry" />
+          <mxGeometry x="33.81" y="570" width="67.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sn_b6BLtuQmuvxoxsvPE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;plain-blue;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#000000;startArrow=none;dashed=1;" edge="1" parent="1" source="Sn_b6BLtuQmuvxoxsvPE-7">
           <mxGeometry x="-117.38" y="472" as="geometry">
@@ -283,7 +283,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Sn_b6BLtuQmuvxoxsvPE-3" value="DEV personal env" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="33.81" y="610" width="66.19" height="59" as="geometry" />
+          <mxGeometry x="33.81" y="475" width="66.19" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Sn_b6BLtuQmuvxoxsvPE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;plain-blue;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#000000;startArrow=none;dashed=1;" edge="1" parent="1" target="Sn_b6BLtuQmuvxoxsvPE-5">
           <mxGeometry x="-117.38" y="472" as="geometry">
@@ -362,6 +362,9 @@
         </mxCell>
         <mxCell id="Sn_b6BLtuQmuvxoxsvPE-21" value="Tag: 22.3.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="870" y="160" width="91" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sn_b6BLtuQmuvxoxsvPE-22" value="features/B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="31" y="550" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
